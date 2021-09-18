@@ -80,7 +80,7 @@ if __name__ == '__main__':
         drop[i] = Drop()
     xy = [0 for i in range(4)]
     while True:
-        os.system('cls')
+        os.system('clear')
         # drop the drops:
         for i in range(drops):
             drop[i].fall()
